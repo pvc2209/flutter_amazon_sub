@@ -36,7 +36,7 @@ class _UpgradePageState extends State<UpgradePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Upgrade Tach Widget"),
+        title: const Text("Upgrade"),
         centerTitle: true,
       ),
       body: SafeArea(
