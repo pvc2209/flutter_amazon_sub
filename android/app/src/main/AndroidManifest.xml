@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dodo_in_app.amz_sub_test_v2">
+    package="com.dodo_in_app.amz_sub_test_v2_new_sku">
     <uses-permission android:name="com.android.vending.BILLING"/>
     <uses-permission android:name="android.permission.INTERNET"/>
    <application

@@ -1,137 +1,192 @@
 {
-  "sub4": {
+  "sub4z": {
     "smallIconUrl": "http://",
-    "title": "sub4_parent title",
+    "title": "sub4z_parent",
     "itemType": "SUBSCRIPTION",
-    "price": 4.0,
-    "description": "sub4_parent des",
-    "languageTitleMap": { "US": "sub4_parent title" },
-    "languageDescriptionMap": { "US": "sub4_parent des" },
+    "price": 79.99,
+    "description": "sub4z_parent",
+    "languageTitleMap": { "US": "sub4z_parent" },
+    "languageDescriptionMap": { "US": "sub4z_parent" },
     "currencyPriceMap": { "US": 0.0 },
-    "subscriptionParent": "sub4_parent",
+    "subscriptionParent": "sub4z_parent",
     "subscriptionBase": null,
     "term": "Weekly"
   },
-  "sub3": {
+  "sub3z": {
     "smallIconUrl": "http://",
-    "title": "sub3_parent title",
+    "title": "sub3z_parent",
     "itemType": "SUBSCRIPTION",
-    "price": 3.0,
-    "description": "sub3_parent des",
-    "languageTitleMap": { "US": "sub3_parent title" },
-    "languageDescriptionMap": { "US": "sub3_parent des" },
+    "price": 59.99,
+    "description": "sub3z_parent",
+    "languageTitleMap": { "US": "sub3z_parent" },
+    "languageDescriptionMap": { "US": "sub3z_parent" },
     "currencyPriceMap": { "US": 0.0 },
-    "subscriptionParent": "sub3_parent",
+    "subscriptionParent": "sub3z_parent",
     "subscriptionBase": null,
     "term": "Weekly"
   },
-  "sub2": {
+  "sub2z": {
     "smallIconUrl": "http://",
-    "title": "sub2_parent title",
+    "title": "sub2z_parent",
     "itemType": "SUBSCRIPTION",
-    "price": 2.0,
-    "description": "sub2_parent des",
-    "languageTitleMap": { "US": "sub2_parent title" },
-    "languageDescriptionMap": { "US": "sub2_parent des" },
+    "price": 39.99,
+    "description": "sub2z_parent",
+    "languageTitleMap": { "US": "sub2z_parent" },
+    "languageDescriptionMap": { "US": "sub2z_parent" },
     "currencyPriceMap": { "US": 0.0 },
-    "subscriptionParent": "sub2_parent",
+    "subscriptionParent": "sub2z_parent",
     "subscriptionBase": null,
     "term": "Weekly"
   },
-  "sub1": {
+  "sub1z": {
     "smallIconUrl": "http://",
-    "title": "sub1_parent title",
+    "title": "sub1z_parent",
     "itemType": "SUBSCRIPTION",
-    "price": 1.0,
-    "description": "sub1_parent des",
-    "languageTitleMap": { "US": "sub1_parent title" },
-    "languageDescriptionMap": { "US": "sub1_parent des" },
+    "price": 19.99,
+    "description": "sub1z_parent",
+    "languageTitleMap": { "US": "sub1z_parent" },
+    "languageDescriptionMap": { "US": "sub1z_parent" },
     "currencyPriceMap": { "US": 0.0 },
-    "subscriptionParent": "sub1_parent",
+    "subscriptionParent": "sub1z_parent",
     "subscriptionBase": null,
     "term": "Weekly"
   },
-  "gold": {
+  "item6z": {
     "smallIconUrl": "http://",
-    "title": "upgrade",
-    "itemType": "SUBSCRIPTION",
-    "price": 10.0,
-    "description": "upgrade des",
-    "languageTitleMap": { "US": "upgrade" },
-    "languageDescriptionMap": { "US": "upgrade des" },
-    "currencyPriceMap": { "US": 0.0 },
-    "subscriptionParent": "upgrade",
-    "subscriptionBase": null,
-    "term": "Weekly"
-  },
-  "item1": {
+    "title": "item6z",
     "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item1",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+    "price": 49.99,
+    "description": "item6z",
+    "languageTitleMap": { "US": "item6z" },
+    "languageDescriptionMap": { "US": "item6z" },
+    "currencyPriceMap": {
+      "BR": 256.32,
+      "DE": 47.45,
+      "AU": 71.7,
+      "IN": 3903.28,
+      "JP": 6827.0,
+      "MX": 1005.97,
+      "GB": 40.71,
+      "IT": 47.45,
+      "FR": 47.45,
+      "US": 49.99,
+      "ES": 47.45,
+      "CA": 64.6
+    }
   },
-  "item2": {
+  "item5z": {
+    "smallIconUrl": "http://",
+    "title": "item5z",
     "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item2",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+    "price": 19.99,
+    "description": "item5z",
+    "languageTitleMap": { "US": "item5z" },
+    "languageDescriptionMap": { "US": "item5z" },
+    "currencyPriceMap": {
+      "BR": 102.5,
+      "DE": 18.97,
+      "AU": 28.67,
+      "IN": 1560.85,
+      "JP": 2730.0,
+      "MX": 402.27,
+      "GB": 16.28,
+      "IT": 18.97,
+      "FR": 18.97,
+      "US": 19.99,
+      "ES": 18.97,
+      "CA": 25.83
+    }
   },
-  "item3": {
+  "item4z": {
+    "smallIconUrl": "http://",
+    "title": "item4z",
     "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item3",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+    "price": 9.99,
+    "description": "item4z",
+    "languageTitleMap": { "US": "item4z" },
+    "languageDescriptionMap": { "US": "item4z" },
+    "currencyPriceMap": {
+      "BR": 51.22,
+      "DE": 9.48,
+      "AU": 14.33,
+      "IN": 780.03,
+      "JP": 1364.0,
+      "MX": 201.03,
+      "GB": 8.14,
+      "IT": 9.48,
+      "FR": 9.48,
+      "US": 9.99,
+      "ES": 9.48,
+      "CA": 12.91
+    }
   },
-  "item4": {
+  "item3z": {
+    "smallIconUrl": "http://",
+    "title": "item3z",
     "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item4",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+    "price": 4.99,
+    "description": "item3z",
+    "languageTitleMap": { "US": "item3z" },
+    "languageDescriptionMap": { "US": "item3z" },
+    "currencyPriceMap": {
+      "BR": 25.59,
+      "DE": 4.74,
+      "AU": 7.16,
+      "IN": 389.63,
+      "JP": 681.0,
+      "MX": 100.42,
+      "GB": 4.06,
+      "IT": 4.74,
+      "FR": 4.74,
+      "US": 4.99,
+      "ES": 4.74,
+      "CA": 6.45
+    }
   },
-  "item5": {
+  "item2z": {
+    "smallIconUrl": "http://",
+    "title": "item2z",
     "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item5",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+    "price": 1.99,
+    "description": "item2z",
+    "languageTitleMap": { "US": "item2z" },
+    "languageDescriptionMap": { "US": "item2z" },
+    "currencyPriceMap": {
+      "BR": 10.2,
+      "DE": 1.89,
+      "AU": 2.85,
+      "IN": 155.38,
+      "JP": 272.0,
+      "MX": 40.05,
+      "GB": 1.62,
+      "IT": 1.89,
+      "FR": 1.89,
+      "US": 1.99,
+      "ES": 1.89,
+      "CA": 2.57
+    }
   },
-  "item6": {
+  "item1z": {
+    "smallIconUrl": "http://",
+    "title": "item1z",
     "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item6",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
-  },
-  "item7": {
-    "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item7",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
-  },
-  "item8": {
-    "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item8",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
-  },
-  "item9": {
-    "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item9",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
-  },
-  "item10": {
-    "itemType": "CONSUMABLE",
-    "price": "1.00",
-    "title": "item10",
-    "description": "An orange",
-    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+    "price": 0.99,
+    "description": "item1z",
+    "languageTitleMap": { "US": "item1z" },
+    "languageDescriptionMap": { "US": "item1z" },
+    "currencyPriceMap": {
+      "BR": 5.08,
+      "DE": 0.94,
+      "AU": 1.42,
+      "IN": 77.3,
+      "JP": 135.0,
+      "MX": 19.92,
+      "GB": 0.81,
+      "IT": 0.94,
+      "FR": 0.94,
+      "US": 0.99,
+      "ES": 0.94,
+      "CA": 1.28
+    }
   }
 }

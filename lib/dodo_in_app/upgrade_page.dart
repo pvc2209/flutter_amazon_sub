@@ -36,7 +36,7 @@ class _UpgradePageState extends State<UpgradePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Upgrade"),
+        title: const Text("Upgrade Tach Widget"),
         centerTitle: true,
       ),
       body: SafeArea(
@@ -56,74 +56,7 @@ class _UpgradePageState extends State<UpgradePage> {
             child: Column(
               children: [
                 // Subscription------------------
-                Obx(
-                  () => ListTile(
-                    title: const Text(
-                      "Upgrade to Premium 1",
-                      style: TextStyle(fontSize: 24),
-                    ),
-                    trailing: ElevatedButton(
-                      onPressed: _inApp.isProductReady(kSub1)
-                          ? () {
-                              _inApp.buySubById(kSub1);
-                            }
-                          : null,
-                      child: const Text("Buy"),
-                    ),
-                    subtitle: Text(_inApp.getPrice(kSub1)),
-                  ),
-                ),
-                Obx(
-                  () => ListTile(
-                    title: const Text(
-                      "Upgrade to Premium 2",
-                      style: TextStyle(fontSize: 24),
-                    ),
-                    trailing: ElevatedButton(
-                      onPressed: _inApp.isProductReady(kSub2)
-                          ? () {
-                              _inApp.buySubById(kSub2);
-                            }
-                          : null,
-                      child: const Text("Buy"),
-                    ),
-                    subtitle: Text(_inApp.getPrice(kSub2)),
-                  ),
-                ),
-                Obx(
-                  () => ListTile(
-                    title: const Text(
-                      "Upgrade to Premium 3",
-                      style: TextStyle(fontSize: 24),
-                    ),
-                    trailing: ElevatedButton(
-                      onPressed: _inApp.isProductReady(kSub3)
-                          ? () {
-                              _inApp.buySubById(kSub3);
-                            }
-                          : null,
-                      child: const Text("Buy"),
-                    ),
-                    subtitle: Text(_inApp.getPrice(kSub3)),
-                  ),
-                ),
-                Obx(
-                  () => ListTile(
-                    title: const Text(
-                      "Upgrade to Premium 4",
-                      style: TextStyle(fontSize: 24),
-                    ),
-                    trailing: ElevatedButton(
-                      onPressed: _inApp.isProductReady(kSub4)
-                          ? () {
-                              _inApp.buySubById(kSub4);
-                            }
-                          : null,
-                      child: const Text("Buy"),
-                    ),
-                    subtitle: Text(_inApp.getPrice(kSub4)),
-                  ),
-                ),
+                const SubWidget(),
                 //--------------------------------
                 Expanded(
                   child: ListView.builder(
@@ -193,29 +126,87 @@ class _UpgradePageState extends State<UpgradePage> {
   }
 }
 
-// class BuyItem extends StatelessWidget {
-//   const BuyItem({
-//     Key? key,
-//     required this.productId,
-//   }) : super(key: key);
+class SubWidget extends StatelessWidget {
+  const SubWidget({
+    Key? key,
+  }) : super(key: key);
 
-//   final String productId;
+  @override
+  Widget build(BuildContext context) {
+    final _inApp = Get.find<DodoInApp>();
 
-//   @override
-//   Widget build(BuildContext context) {
-//     final _inApp = Get.find<DodoInApp>();
-//     return Obx(
-//       () => ListTile(
-//         title: Text(_inApp.getPrice(productId)),
-//         trailing: ElevatedButton(
-//           onPressed: _inApp.isProductReady(productId)
-//               ? () {
-//                   _inApp.buyBuyId(productId);
-//                 }
-//               : null,
-//           child: const Text("Buy"),
-//         ),
-//       ),
-//     );
-//   }
-// }
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Obx(
+          () => ListTile(
+            title: const Text(
+              "Upgrade to Premium 1",
+              style: TextStyle(fontSize: 24),
+            ),
+            trailing: ElevatedButton(
+              onPressed: _inApp.isProductReady(kSub1)
+                  ? () {
+                      _inApp.buySubById(kSub1);
+                    }
+                  : null,
+              child: const Text("Buy"),
+            ),
+            subtitle: Text(_inApp.getPrice(kSub1)),
+          ),
+        ),
+        Obx(
+          () => ListTile(
+            title: const Text(
+              "Upgrade to Premium 2",
+              style: TextStyle(fontSize: 24),
+            ),
+            trailing: ElevatedButton(
+              onPressed: _inApp.isProductReady(kSub2)
+                  ? () {
+                      _inApp.buySubById(kSub2);
+                    }
+                  : null,
+              child: const Text("Buy"),
+            ),
+            subtitle: Text(_inApp.getPrice(kSub2)),
+          ),
+        ),
+        Obx(
+          () => ListTile(
+            title: const Text(
+              "Upgrade to Premium 3",
+              style: TextStyle(fontSize: 24),
+            ),
+            trailing: ElevatedButton(
+              onPressed: _inApp.isProductReady(kSub3)
+                  ? () {
+                      _inApp.buySubById(kSub3);
+                    }
+                  : null,
+              child: const Text("Buy"),
+            ),
+            subtitle: Text(_inApp.getPrice(kSub3)),
+          ),
+        ),
+        Obx(
+          () => ListTile(
+            title: const Text(
+              "Upgrade to Premium 4",
+              style: TextStyle(fontSize: 24),
+            ),
+            trailing: ElevatedButton(
+              onPressed: _inApp.isProductReady(kSub4)
+                  ? () {
+                      _inApp.buySubById(kSub4);
+                    }
+                  : null,
+              child: const Text("Buy"),
+            ),
+            subtitle: Text(_inApp.getPrice(kSub4)),
+          ),
+        ),
+      ],
+    );
+  }
+}

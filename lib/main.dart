@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Amz Sub V2',
+      title: 'Amz Sub V2 NEW SKU',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -34,11 +34,16 @@ class HomePage extends StatelessWidget {
       ),
       body: SafeArea(
         child: Center(
-          child: ElevatedButton(
-            onPressed: () {
-              Get.to(() => const UpgradePage());
-            },
-            child: const Text('Go to buy page'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Get.to(() => const UpgradePage());
+                },
+                child: const Text('Go to buy page tach widget'),
+              ),
+            ],
           ),
         ),
       ),
