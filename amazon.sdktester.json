@@ -1,0 +1,137 @@
+{
+  "sub4": {
+    "smallIconUrl": "http://",
+    "title": "sub4_parent title",
+    "itemType": "SUBSCRIPTION",
+    "price": 4.0,
+    "description": "sub4_parent des",
+    "languageTitleMap": { "US": "sub4_parent title" },
+    "languageDescriptionMap": { "US": "sub4_parent des" },
+    "currencyPriceMap": { "US": 0.0 },
+    "subscriptionParent": "sub4_parent",
+    "subscriptionBase": null,
+    "term": "Weekly"
+  },
+  "sub3": {
+    "smallIconUrl": "http://",
+    "title": "sub3_parent title",
+    "itemType": "SUBSCRIPTION",
+    "price": 3.0,
+    "description": "sub3_parent des",
+    "languageTitleMap": { "US": "sub3_parent title" },
+    "languageDescriptionMap": { "US": "sub3_parent des" },
+    "currencyPriceMap": { "US": 0.0 },
+    "subscriptionParent": "sub3_parent",
+    "subscriptionBase": null,
+    "term": "Weekly"
+  },
+  "sub2": {
+    "smallIconUrl": "http://",
+    "title": "sub2_parent title",
+    "itemType": "SUBSCRIPTION",
+    "price": 2.0,
+    "description": "sub2_parent des",
+    "languageTitleMap": { "US": "sub2_parent title" },
+    "languageDescriptionMap": { "US": "sub2_parent des" },
+    "currencyPriceMap": { "US": 0.0 },
+    "subscriptionParent": "sub2_parent",
+    "subscriptionBase": null,
+    "term": "Weekly"
+  },
+  "sub1": {
+    "smallIconUrl": "http://",
+    "title": "sub1_parent title",
+    "itemType": "SUBSCRIPTION",
+    "price": 1.0,
+    "description": "sub1_parent des",
+    "languageTitleMap": { "US": "sub1_parent title" },
+    "languageDescriptionMap": { "US": "sub1_parent des" },
+    "currencyPriceMap": { "US": 0.0 },
+    "subscriptionParent": "sub1_parent",
+    "subscriptionBase": null,
+    "term": "Weekly"
+  },
+  "gold": {
+    "smallIconUrl": "http://",
+    "title": "upgrade",
+    "itemType": "SUBSCRIPTION",
+    "price": 10.0,
+    "description": "upgrade des",
+    "languageTitleMap": { "US": "upgrade" },
+    "languageDescriptionMap": { "US": "upgrade des" },
+    "currencyPriceMap": { "US": 0.0 },
+    "subscriptionParent": "upgrade",
+    "subscriptionBase": null,
+    "term": "Weekly"
+  },
+  "item1": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item1",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item2": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item2",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item3": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item3",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item4": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item4",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item5": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item5",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item6": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item6",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item7": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item7",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item8": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item8",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item9": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item9",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  },
+  "item10": {
+    "itemType": "CONSUMABLE",
+    "price": "1.00",
+    "title": "item10",
+    "description": "An orange",
+    "smallIconUrl": "http://www.amazon.com/orange.jpg"
+  }
+}
